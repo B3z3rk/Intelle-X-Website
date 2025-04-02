@@ -1,85 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iNTELLE-X</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Madimi+One&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h1>I N T E L L E - X</h1>
-            <p>An intelligent search engine that finds relevant documents and generates paraphrased responses.</p>
-            <a href="#features" class="btn">Learn More</a>
-        </div>
+      <div class="container">
+        <img class="logo" src="logo.png" />
+        <!-- <h1>I N T E L L E - X</h1> -->
+        <p>
+          An intelligent search engine that finds relevant documents and
+          generates paraphrased responses.
+        </p>
+        <a href="#features" class="btn">Learn More</a>
+      </div>
     </header>
 
     <section id="features" class="features">
-        <div class="container">
-            <h2>Features</h2>
-            <div class="feature-grid">
-                <div class="feature">
-                    <h3>Document Upload</h3>
-                    <p>Upload `.txt` and `.pdf` files to build a searchable corpus.</p>
-                </div>
-                <div class="feature">
-                    <h3>BM25 Search</h3>
-                    <p>Rank documents based on relevance to a user query using a custom made BM25 algorithm.</p>
-                </div>
-                <div class="feature">
-                    <h3>Paraphrasing</h3>
-                    <p>Generate paraphrased responses for queries using advanced language models.</p>
-                </div>
-                <div class="feature">
-                    <h3>Dynamic UI</h3>
-                    <p>View uploaded files, matching sections, and paraphrased responses in a user-friendly interface.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h1>Features</h1>
+        <div class="feature-grid">
+          <div class="feature">
+            <h3>Document Upload</h3>
+            <p>Upload `.txt` and `.pdf` files to build a searchable corpus.</p>
+          </div>
+          <div class="feature">
+            <h3>BM25 Search</h3>
+            <p>
+              Rank documents based on relevance to a user query using a custom
+              made BM25 algorithm.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Paraphrasing</h3>
+            <p>
+              Generate paraphrased responses for queries using advanced language
+              models.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Dynamic UI</h3>
+            <p>
+              View uploaded files, matching sections, and paraphrased responses
+              in a user-friendly interface.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="gallery" class="gallery">
-        <div class="container">
-            <h2>Gallery</h2>
-            <div class="image-grid">
-                <div class="image">
-                    <img src="images/screenshot1.png" alt="Screenshot 1">
-                    <p>Upload documents and view them in the "Sources" section.</p>
-                </div>
-                <div class="image">
-                    <img src="images/screenshot2.png" alt="Screenshot 2">
-                    <p>Search for queries and see matching sections.</p>
-                </div>
-                <div class="image">
-                    <img src="images/screenshot3.png" alt="Screenshot 3">
-                    <p>Generate paraphrased responses for your queries.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+          <div class="image">
+            <img id="shot1 " src="images/screenshot1.png" alt="Screenshot 1" />
+            <p>Upload documents and view them in the "Sources" section.</p>
+          </div>
+          <div class="image">
+            <img id="shot2" src="images/screenshot2.png" alt="Screenshot 2" />
+            <p>Search for queries and see matching sections.</p>
+          </div>
+          <div class="image">
+            <img id="shot3" src="images/screenshot3.png" alt="Screenshot 3" />
+            <p>Generate paraphrased responses for your queries.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="demo" class="demo">
-        <div class="container">
-            <h2>Try It Out</h2>
-            <p>Experience the power of the BM25 search engine with paraphrasing.</p>
-            <a href="http://127.0.0.1:5000/" class="btn" target="_blank">Launch Demo</a>
-        </div>
+      <div class="container">
+        <h2>Try It Out</h2>
+        <p>Experience the power of the BM25 search engine with paraphrasing.</p>
+        <a href="http://127.0.0.1:5000/" class="btn" target="_blank"
+          >Launch Demo</a
+        >
+      </div>
     </section>
 
     <section id="about" class="about">
-        <div class="container">
-            <h2>About the Project</h2>
-            <p>
-                This project combines the BM25 ranking algorithm with advanced paraphrasing techniques to provide a powerful search engine. It is built using Python, Flask, and state-of-the-art language models like T5.
-            </p>
-        </div>
+      <div class="container">
+        <h2>About the Project</h2>
+        <p>
+          This project combines the BM25 ranking algorithm with advanced
+          paraphrasing techniques to provide a powerful search engine. It is
+          built using Python, Flask, and state-of-the-art language models like
+          T5.
+        </p>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 BM25 Search Engine. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 IntelleX. All rights reserved.</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
