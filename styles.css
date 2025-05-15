@@ -76,7 +76,8 @@ header p {
 }
 
 .logo {
-    
+     max-width: 100%;
+    height: auto;
     animation: pulse 2s infinite ease-in-out;
     transition: transform 0.3s ease-in-out;
 }
@@ -126,7 +127,10 @@ header p {
 .feature p {
     color: #666;
 }
-
+img{
+    width:100%;
+    height: auto;
+}
 /* Demo Section */
 .demo {
     padding: 60px 0;
@@ -209,4 +213,7 @@ footer p {
 .image p {
     color: #666;
     font-size: 0.9rem;
+}
+video{
+    width:90%;
 }
